@@ -1,5 +1,5 @@
-
 // first class part
+
 document.getElementById("firstClassFarePlus").addEventListener("click", function () {
     const firstClassFareInput = document.getElementById("firstClassFare");
     const firstClassFare = parseInt(firstClassFareInput.value);
