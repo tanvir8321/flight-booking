@@ -140,6 +140,10 @@ background-color: #f3f5ff;
 padding: 0 10px;
     
 border-radius: 5px;
+    
+float: left;
+    
+margin-left: 5px;
 }
 .fare-button:hover{
     background-color: #ddd;
