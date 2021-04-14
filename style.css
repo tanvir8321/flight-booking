@@ -71,7 +71,7 @@ nav ul li a:hover, a.active{
     color: #3352F2;
     font-size: 30px;
     padding: 2px;
-    margin-top: 10px;
+    margin-top: 18px;
     word-spacing: 20px;
 }
 .booking-form  .calculations{
@@ -132,4 +132,15 @@ nav ul li a:hover, a.active{
 .submit-confirmation{
     display: none;
     color: green;
+}
+.fare-button{
+    
+background-color: #f3f5ff;
+    
+padding: 0 10px;
+    
+border-radius: 5px;
+}
+.fare-button:hover{
+    background-color: #ddd;
 }
