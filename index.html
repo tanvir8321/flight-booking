@@ -28,7 +28,7 @@
 
     <!--Booking Section-->
     <main class="main-content container">
-        <div class="booking-form">
+        <div id="form-area" class="booking-form">
             <h3>Booking Flights</h3>
             <div class="input-group">
                 <label for="">Flying From</label>
@@ -51,7 +51,7 @@
             <div class="input-group f-class">
                 <div>
                     <label for="">First Class ($150)</label>
-                    <input id="firstClassFare" class="inp-style inp-width" type="number" value="0" name="">
+                    <input id="firstClassFare" oninput="myFunction('first')" class="inp-style inp-width" type="number" value="0" name="">
                 </div>
                 <div class="plus-minus-btn">
                     <p> <span id="firstClassFarePlus" class="fare-button">+</span> <span class="fare-button"
@@ -62,7 +62,7 @@
             <div class="input-group f-class">
                 <div>
                     <label for="">Economy ($100)</label>
-                    <input id="economyFare" class="inp-style inp-width" type="number" value="0" name="">
+                    <input id="economyFare" oninput="myFunction('economy')" class="inp-style inp-width" type="number" value="0" name="">
                 </div>
                 <div class="plus-minus-btn">
                     <p> <span id="economyFarePlus" class="fare-button">+</span> <span class="fare-button"
@@ -97,7 +97,10 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="submit" class="btn-style">Book Now</button>
+        </div>
+        <div id="submit-massage-area" class="submit-confirmation booking-form">
+            <h1>Please check your email...</h1>
         </div>
 
         <div class="booking-content">
